@@ -227,7 +227,7 @@ td.headshot {
 }
 .header-left{
 	float:right;
-	margin-top: 1.4em;
+	/* margin-top: 1.4em; */
 }
 .header-left ul li {
     display: inline-block;
@@ -1714,10 +1714,13 @@ p.ever {
   .navbar-collapse {
 	width: 650px;    
   }	
-  
+
+/*  
   ul.navbar-nav {
 	  margin-right:40px
   }
+  
+  */
 }
 
 @media(max-width:767px){
@@ -1755,10 +1758,12 @@ ul.nav.navbar-nav li a {
 .navbar-nav {
     width: 100%;
 }
-
 .header-left ul li {
     font-size: 1.0em;    
 }
+.header-left ul li.remote-support,  .header-left ul br.remote-support{
+	display: none;	
+}	
 
 /*----*/
 div#bs-example-navbar-collapse-1 {
